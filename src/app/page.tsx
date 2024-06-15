@@ -2,6 +2,7 @@ import Image from "next/image";
 import Profile from "./_components/Profile";
 import Bio from "./_components/Bio";
 import Personality from "./_components/Personality";
+import Education from "./_components/Education";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         </div>
         <div className="grid col-span-3 gap-4">
           <div className="bg-pink-300 min-h-[500px]">Skill</div>
-          <div className="bg-pink-300 min-h-[100px]">Education</div>
+          <Education />
           <div className="bg-pink-300 min-h-[200px]">Portfolio</div>
         </div>
       </div>
