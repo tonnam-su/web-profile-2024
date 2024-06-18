@@ -4,7 +4,7 @@ type Props = {};
 
 const Education = (props: Props) => {
   return (
-    <div className="bg-blue-100 h-full p-4 rounded-xl">
+    <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
       <h1 className="text-xl font-bold pb-4">Education</h1>
       <div className="container mx-auto p-6">
         <div className="relative border-l-4 border-blue-500">

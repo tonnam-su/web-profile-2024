@@ -14,9 +14,9 @@ type Props = {};
 
 const Skill = (props: Props) => {
   return (
-    <div className="bg-blue-100 h-full p-4 rounded-xl">
+    <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
       <h1 className="text-xl font-bold pb-4">Skill</h1>
-      <div className="grid grid-cols-7 gap-4">
+      <div className="grid sm:grid-cols-7 grid-cols-4 gap-4">
         <div className="text-center">
           <FontAwesomeIcon icon={faPhp} className="h-10" />
           <p>PHP</p>
