@@ -7,7 +7,7 @@ const Bio = (props: Props) => {
     <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
       <h1 className="text-xl font-bold pb-4">Bio</h1>
       <div>
-        <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting
+        Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book. It has survived not only five
