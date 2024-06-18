@@ -3,6 +3,7 @@ import Profile from "./_components/Profile";
 import Bio from "./_components/Bio";
 import Personality from "./_components/Personality";
 import Education from "./_components/Education";
+import Skill from "./_components/Skill";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
           <div className="bg-pink-300 min-h-[200px]">Goals</div>
         </div>
         <div className="grid col-span-3 gap-4">
-          <div className="bg-pink-300 min-h-[500px]">Skill</div>
+          <Skill />
           <Education />
           <div className="bg-pink-300 min-h-[200px]">Portfolio</div>
         </div>
