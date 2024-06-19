@@ -1,11 +1,11 @@
 import React from "react";
+import Card from "./common/Card";
 
 type Props = {};
 
 const Bio = (props: Props) => {
   return (
-    <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
-      <h1 className="text-xl font-bold pb-4">Bio</h1>
+    <Card title="Bio">
       <div>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -17,7 +17,7 @@ const Bio = (props: Props) => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </div>
-    </div>
+    </Card>
   );
 };
 

@@ -9,14 +9,14 @@ import {
   faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Card from "./common/Card";
 
 type Props = {};
 
 const Skill = (props: Props) => {
   return (
-    <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
-      <h1 className="text-xl font-bold pb-4">Skill</h1>
-      <div className="grid sm:grid-cols-7 grid-cols-4 gap-4">
+    <Card title="Skill">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         <div className="text-center">
           <FontAwesomeIcon icon={faPhp} className="h-10" />
           <p>PHP</p>
@@ -50,7 +50,7 @@ const Skill = (props: Props) => {
           <p>Vue.js</p>
         </div>
       </div>
-    </div>
+    </Card>
   );
 };
 
