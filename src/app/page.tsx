@@ -6,14 +6,21 @@ import Education from "./_components/Education";
 import Skill from "./_components/Skill";
 import Goals from "./_components/Goals";
 import Portfolio from "./_components/Portfolio";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="container mx-auto pt-4">
       <div className="flex gap-4 justify-end pb-4">
-        <div>Profile</div>
         <div>
-          <a href="/blog"> Blog </a>
+          <Link href="/" className="hover:text-blue-600">
+            Profile
+          </Link>
+        </div>
+        <div>
+          <Link href="/blog" className="hover:text-blue-600">
+            Blog
+          </Link>
         </div>
       </div>
       <div className="grid grid-flow-col grid-cols-8 gap-4">
