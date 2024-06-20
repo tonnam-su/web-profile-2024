@@ -1,8 +1,16 @@
+import { MoveLeft } from "lucide-react";
+import Link from "next/link";
+
 export default function blog() {
   return (
     <main className="container bg-blue-100 min-h-screen max-w-none p-24">
       <div className="container mx-auto px-40">
-        <header className="flex justify-between items-center mb-8">
+        <div className="mb-5">
+          <Link href="/" className="text-sm flex gap-2 items-center">
+            <MoveLeft size={14} /> Profile
+          </Link>
+        </div>
+        <header className="flex justify-between items-center mb-5">
           <h1 className="text-3xl font-bold text-gray-800">My Blog</h1>
         </header>
 
@@ -18,12 +26,12 @@ export default function blog() {
                   ในฐานะนักพัฒนาซอฟต์แวร์
                   แท้ที่จริงแล้วเราก็คือนักเรียนของโลกใบนี้เสมอ
                 </p>
-                <a
-                  href="/blog/1"
+                <Link
+                  href="/blog/as-developers-indeed-we-are-the-student-of-the-world"
                   className="text-blue-500 hover:text-blue-700 font-bold"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
               <div>
                 <img
@@ -45,12 +53,12 @@ export default function blog() {
                 <p className="text-gray-600 mb-10">
                   “ถ้าเราพูดถึง Code ที่ดี เราจะให้คำนิยามมันว่าอะไร?”
                 </p>
-                <a
-                  href="/blog/2"
+                <Link
+                  href="/blog/the-art-of-simplicity-pythons-syntactic-sugar"
                   className="text-blue-500 hover:text-blue-700 font-bold"
                 >
                   Read More
-                </a>
+                </Link>
               </div>
               <div>
                 <img
