@@ -20,15 +20,17 @@ export default function Home() {
         <div className="col-span-2">
           <Profile />
         </div>
-        <div className="grid col-span-3 gap-4">
-          <Bio />
-          <Personality />
-          <Goals />
-        </div>
-        <div className="grid col-span-3 gap-4">
-          <Skill />
-          <Education />
-          <Portfolio />
+        <div className="grid col-span-6 grid-cols-3 xl:grid-cols-6 gap-4">
+          <div className="grid col-span-3 gap-4">
+            <Bio />
+            <Personality />
+            <Goals />
+          </div>
+          <div className="grid col-span-3 gap-4">
+            <Skill />
+            <Education />
+            <Portfolio />
+          </div>
         </div>
       </div>
     </div>
