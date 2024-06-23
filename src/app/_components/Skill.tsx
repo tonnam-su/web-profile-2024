@@ -1,11 +1,8 @@
 import {
-  faDocker,
   faJava,
   faJs,
   faPhp,
   faPython,
-  faReact,
-  faRust,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
@@ -32,6 +29,10 @@ const Skill = (props: Props) => {
         <div className="text-center">
           <FontAwesomeIcon icon={faJs} className="h-10" />
           <p>JS</p>
+        </div>
+        <div className="text-center">
+          <i className="fa-brands fa-html5">html5</i>
+          <p>html5</p>
         </div>
       </div>
     </Card>
