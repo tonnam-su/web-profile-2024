@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 type Props = {};
 
@@ -30,6 +31,14 @@ const Profile = (props: Props) => {
         </p>
         <p>
           <b>Location:</b> Nakhon Si Thammarat
+        </p>
+        <p>
+        <a className="text-light" href="https://www.facebook.com/profile.php?id=100010246932824&mibextid=ZbWKwL">
+        <b>Facebook:</b> ต้นน้ำ สุทธิพันธ์
+        </a> 
+        </p>
+        <p>
+          <b>Mobile number:</b> 094-408-3420
         </p>
       </div>
     </div>
