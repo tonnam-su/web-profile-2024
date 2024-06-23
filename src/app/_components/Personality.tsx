@@ -8,16 +8,16 @@ const Personality = (props: Props) => {
   return (
     <Card title="Personality">
       <div>
-        <p className="text-lg">Adventurer (ISFP)</p>
+        <p className="text-lg">Advocate (INFJ-T)</p>
         <p className="pb-2">
-          Adventurers are flexible and charming, always ready to explore and
-          experience something new.
+        Supporters are quiet but often inspirational dreamers and tireless adherents of their ideals.
         </p>
         <div className="flex gap-1">
           <Badge>INTROVERTED</Badge>
-          <Badge>OBSERVANT</Badge>
+          <Badge>VISION</Badge>
           <Badge>FEELING</Badge>
-          <Badge>PROSPECTING</Badge>
+          <Badge>PLANNER</Badge>
+          <Badge>AWAKE</Badge>
         </div>
       </div>
     </Card>

@@ -10,33 +10,35 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container mx-auto pt-4">
-      <div className="flex gap-4 justify-end pb-4">
-        <div>
-          <Link href="/" className="hover:text-blue-600">
-            Profile
-          </Link>
-        </div>
-        <div>
-          <Link href="/blog" className="hover:text-blue-600">
-            Blog
-          </Link>
-        </div>
-      </div>
-      <div className="grid grid-flow-col grid-cols-8 gap-4">
-        <div className="col-span-2">
-          <Profile />
-        </div>
-        <div className="grid col-span-6 grid-cols-3 xl:grid-cols-6 gap-4">
-          <div className="grid col-span-3 gap-4">
-            <Bio />
-            <Personality />
-            <Goals />
+    <div className="bg-teal-300">
+      <div className="container mx-auto pt-4 ">
+        <div className="flex gap-4 justify-end pb-4">
+          <div>
+            <Link href="/" className="hover:text-blue-600">
+              Profile
+            </Link>
           </div>
-          <div className="grid col-span-3 gap-4">
-            <Skill />
-            <Education />
-            <Portfolio />
+          <div>
+            <Link href="/blog" className="hover:text-blue-600">
+              Blog
+            </Link>
+          </div>
+        </div>
+        <div className="grid grid-flow-col grid-cols-8 gap-4">
+          <div className="col-span-2">
+            <Profile />
+          </div>
+          <div className="grid col-span-6 grid-cols-3 xl:grid-cols-6 gap-4">
+            <div className="grid col-span-3 gap-4">
+              <Bio />
+              <Personality />
+              <Goals />
+            </div>
+            <div className="grid col-span-3 gap-4">
+              <Skill />
+              <Education />
+              <Portfolio />
+            </div>
           </div>
         </div>
       </div>

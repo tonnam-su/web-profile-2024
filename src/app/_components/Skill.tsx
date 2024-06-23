@@ -6,10 +6,10 @@ import {
   faPython,
   faReact,
   faRust,
-  faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 type Props = {};
 
@@ -26,28 +26,12 @@ const Skill = (props: Props) => {
           <p>Python</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faRust} className="h-10" />
-          <p>Rust</p>
-        </div>
-        <div className="text-center">
-          <FontAwesomeIcon icon={faReact} className="h-10" />
-          <p>React</p>
-        </div>
-        <div className="text-center">
           <FontAwesomeIcon icon={faJava} className="h-10" />
           <p>Java</p>
         </div>
         <div className="text-center">
           <FontAwesomeIcon icon={faJs} className="h-10" />
           <p>JS</p>
-        </div>
-        <div className="text-center">
-          <FontAwesomeIcon icon={faDocker} className="h-10" />
-          <p>Docker</p>
-        </div>
-        <div className="text-center">
-          <FontAwesomeIcon icon={faVuejs} className="h-10" />
-          <p>Vue.js</p>
         </div>
       </div>
     </Card>
