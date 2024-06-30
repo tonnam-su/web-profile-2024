@@ -30,10 +30,7 @@ const Skill = (props: Props) => {
           <FontAwesomeIcon icon={faJs} className="h-10" />
           <p>JS</p>
         </div>
-        <div className="text-center">
-          <i className="fa-brands fa-html5">html5</i>
-          <p>html5</p>
-        </div>
+
       </div>
     </Card>
   );
